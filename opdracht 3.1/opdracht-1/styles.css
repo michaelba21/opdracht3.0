@@ -1,0 +1,151 @@
+
+/*universal*/
+ul{
+    list-style-type:none;
+}
+/*opdracht 1a*/
+.navbar-one ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*border:2px dashed red;*/
+
+}
+.navbar-one li,.navbar-two li {
+    display: flex;
+
+}
+/*opdracht 1b*/
+.navbar-two ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+/*opdracht 1c*/
+.navbar-three ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    gap:-50px;
+}
+.navbar-three div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+
+    /* flex-basis: 1050px;*/
+    /*height:30px;*/
+}
+/*.row3{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    border: 2px solid purple;*/
+/*}*/
+/*opdracht 1d*/
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+
+}
+.navbar-four ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+
+
+}
+.samen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    flex-basis: 650px;
+
+}
+.ul1d {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between ;
+}
+.img {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:10px;
+
+    flex-basis: 200px;
+    height:25px;
+}
+.ul1d button{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    width:100px;
+    height:50px;
+    column-gap:200px;
+
+}
+
+
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+
+}
+.navbar-five ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+
+
+}
+.samen1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*gap:70px;*/
+
+    flex-basis: 1000px;
+
+}
+.ul1e {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between ;
+}
+.img1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:10px;
+
+    flex-basis: 200px;
+    height:25px;
+}
+.ul1e button{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    width:100px;
+    height:50px;
+    column-gap:200px;
+
+}
+
+
